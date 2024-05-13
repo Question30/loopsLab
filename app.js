@@ -61,11 +61,9 @@ const string =
 
 //Loop Through the String
 let row = "";
-let rowCount = 1;
 for (let i = 0; i < string.length; i++) {
   if (string[i] === "\n") {
     console.log(row);
-    rowCount++;
     row = "";
   } else {
     row = row + string[i];
